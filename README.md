@@ -420,5 +420,72 @@ Models are built to:
 - Explore the impact of different loss functions and how they guide model optimization.
 - Dive into more advanced modeling techniques like decision trees and neural networks.
 
-Feel free to contribute examples or share insights as you explore these topics further. Happy modeling! 🚀
+# DX 601 Week 3 Homework
+
+## Introduction
+
+This repository contains the Week 3 homework for DX 601. The homework focuses on data analysis and machine learning concepts, such as plotting, model predictions, and loss calculations. 
+
+The homework leverages Python and Jupyter notebooks to process a dataset and calculate metrics such as $L_1$ and $L_2$ losses, residuals, and $R^2$ values.
+
+### Helpful Resources
+
+You may refer to the following GitHub repositories for examples and guidance:
+- [dx601-examples](https://github.com/bu-cds-omds/dx601-examples)
+- [dx602-examples](https://github.com/bu-cds-omds/dx602-examples)
+
+You are allowed to reuse any code or calculations provided in the course videos or these repositories for your homework.
+
+---
+
+## Instructions
+
+1. Replace every instance of `...` in the provided template with your solutions to the problems.
+2. Run each code block to ensure it produces the expected results.
+3. Before submission, restart the kernel and run all cells (via `Runtime -> Restart and Run All`) to ensure all code works correctly.
+4. If your code raises exceptions during the autograder tests, you may lose some or all points for the assignment.
+
+---
+
+### Problems Overview
+
+Below is a summary of each problem and its focus:
+
+1. **Problem 1**: Calculate the mean of the `estimated_sweetness` column.
+2. **Problem 2**: Plot a scatter plot of `estimated_sweetness` vs. `rated_flavor`.
+3. **Problem 3**: Calculate residuals for a linear model, `f3`.
+4. **Problem 4**: Compute $L_1$ losses for a model, `f4`.
+5. **Problem 5**: Compute $L_2$ losses for a model, `f5`.
+6. **Problem 6**: Calculate the average $L_2$ loss for a linear model, `f6`.
+7. **Problem 7**: Write a function `p7` that predicts the `estimated_flavor` column.
+8. **Problem 8**: Calculate the average $L_2$ loss using the `yellow_rating` column as a predictor.
+9. **Problem 9**: Write a function `p9` to compute $0.5 \times (\mathrm{yellow~rating}) + 0.4 \times (\mathrm{estimated~flavor})$.
+10. **Problem 10**: Compute the average $L_1$ loss for a custom model.
+11. **Problem 11**: Identify which problem (6 or 8) has the best $L_2$ loss.
+12. **Problem 12**: Determine which of three given functions is non-linear.
+13. **Problem 13**: Calculate the sample variance of the `rated_flavor` column.
+14. **Problem 14**: Calculate the means of each column.
+15. **Problem 15**: Compute the median of the `estimated_flavor` column.
+16. **Problem 16**: Identify which function (of three) has the lowest $L_1$ loss.
+17. **Problem 17**: Load a dataset and compute the means of its columns.
+18. **Problem 18**: Compute the $R^2$ value for a model, `f18`.
+19. **Problem 19**: Write a function that computes $3x + 1$.
+20. **Problem 20**: Calculate the average $L_2$ loss for a non-linear model, `f20`.
+
+---
+
+## Notes
+
+- Do not install or use any additional Python modules beyond those already provided (e.g., `matplotlib`, `pandas`).
+- You may add your own examples for testing and verification.
+- Reach out for help on YellowDig or schedule an appointment with a learning facilitator if you encounter issues.
+
+---
+
+## Running the Code
+
+1. Clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/yourusername/dx601-week3-homework.git
+   cd dx601-week3-homework
 
